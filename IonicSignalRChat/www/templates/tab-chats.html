@@ -1,0 +1,26 @@
+<ion-view view-title="Chats">
+    <ion-content style="margin-bottom: 3em">
+        <ion-pane ng-if="chats.length == 0">
+            <p style="text-align:center">You do not have any conversations</p>
+            <p style="text-align:center">Start by sending a message below</p>
+        </ion-pane>
+        <ion-list>
+            <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+                <img ng-src="{{chat.Icon}}">
+                <h2>{{chat.Sender}}</h2>
+                <p>{{chat.Message}}</p>
+                <i class="icon ion-chevron-right icon-accessory"></i>
+                <ion-option-button class="button-assertive" ng-click="remove(chat)">
+                    Delete
+                </ion-option-button>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <div class="bar bar-footer item-input-inset">
+        <label class="item-input-wrapper">
+            <input type="text" placeholder="" ng-model="message">
+        </label>
+        <button class="button button-clear icon ion-android-send button-stable"
+                ng-class="{'button-balanced': message!=''}" ng-click="send(message)" ng-disabled="message == ''"></button>
+    </div>
+</ion-view>

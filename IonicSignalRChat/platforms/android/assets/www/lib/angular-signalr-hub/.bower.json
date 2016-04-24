@@ -1,0 +1,25 @@
+{
+  "name": "angular-signalr-hub",
+  "version": "1.6.2",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JustMaier/angular-signalr-hub.git"
+  },
+  "main": "signalr-hub.js",
+  "dependencies": {
+    "angular": "*",
+    "jquery": "*",
+    "signalr": "*"
+  },
+  "homepage": "https://github.com/JustMaier/angular-signalr-hub",
+  "_release": "1.6.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.6.2",
+    "commit": "934d2d3c9b809260305a73593d7d575dd5f72d1a"
+  },
+  "_source": "https://github.com/JustMaier/angular-signalr-hub.git",
+  "_target": "~1.6.2",
+  "_originalSource": "angular-signalr-hub",
+  "_direct": true
+}

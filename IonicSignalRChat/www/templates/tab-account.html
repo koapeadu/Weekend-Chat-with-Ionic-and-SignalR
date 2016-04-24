@@ -1,0 +1,13 @@
+<ion-view view-title="Account">
+    <ion-content>
+        <ion-list>
+            <ion-toggle ng-model="settings.enableFriends">
+                Enable Friends
+            </ion-toggle>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Username</span>
+                <input type="text" placeholder="johndoe" ng-model="settings.username" ng-change="changeUsername()">
+            </label>
+        </ion-list>
+    </ion-content>
+</ion-view>

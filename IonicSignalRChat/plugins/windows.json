@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "ionic-tabs"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "ionic-tabs"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "ionic-tabs"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "ionic-tabs"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "ionic-tabs"
+        }
+    },
+    "dependent_plugins": {}
+}
